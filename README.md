@@ -7,7 +7,7 @@
 
 Submitted to Mr. Pankaj kapoor sir
 
-# Projecrt-Progress
+# Project-Progress
 
   Date           | discussion
 --------         |  ---------------

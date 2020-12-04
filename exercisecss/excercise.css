@@ -40,3 +40,8 @@ html,body{
         line-height: 20px;
         padding: 0 10px 0 10px;
 }
+.cleft{
+    float: left; 
+    width: 48%;
+    height: 350px;
+}

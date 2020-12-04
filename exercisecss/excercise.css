@@ -45,3 +45,8 @@ html,body{
     width: 48%;
     height: 350px;
 }
+.cright{
+    float: right; 
+    width: 48%;
+    height: 350px;
+}

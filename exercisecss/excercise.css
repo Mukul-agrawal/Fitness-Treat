@@ -50,3 +50,9 @@ html,body{
     width: 48%;
     height: 350px;
 }
+.container1{
+    height: 270px;
+    margin-top: 75px;
+    width: 100%; 
+    padding: 20px 15px 20px 15px;
+}

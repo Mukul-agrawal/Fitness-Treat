@@ -5,3 +5,10 @@ html,body{
     position: fixed;
     top: 0;
 }
+#container{
+    background:rgb(236, 231, 231);
+    height: 3550px;
+    width: 81%;
+    margin-left: auto;
+    margin-right: auto;
+}

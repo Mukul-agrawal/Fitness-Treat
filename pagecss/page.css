@@ -13,6 +13,15 @@ html,body{
     margin-right: auto;
     margin-top: 73px;
 }
+#containerdiet{
+    background:rgb(236, 231, 231);
+    height: 3350px;
+    width: 81%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 73px;
+
+}
 .leftimg{
     float: left; 
     width: 49%;

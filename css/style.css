@@ -702,6 +702,80 @@ h2.condensed{
     padding-left:40px;
     color: #8BC3A3;
 }	
+/* Team */
+
+#team{
+    border-bottom:none;
+}
+
+#team .team .team-members{
+    margin:30px auto 0;
+}
+
+.team-members .member{
+    margin:15px auto;
+    cursor: default;
+    overflow: hidden;
+}
+
+.team-members .member .member-inner{
+    position: relative;
+}
+
+.team-members .member a.team-image{
+    display: block;
+    width: 100%;
+    height: auto;
+    z-index: 2;
+}
+
+.team-members .member a.team-image img{
+    width: 100%;
+}
+
+.inner-details .member-details{
+    position: absolute;
+    width: 100%;
+    left:0;
+    height: 100%;
+    padding:15px;
+    bottom:100%;
+    margin:0;
+    z-index: 3;
+    opacity:0.9;
+    background:#8BC3A3;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.inner-details .member-details .member-details-inner{
+    position: relative;
+    top:50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+/* Team Names, Descriptions */
+
+.team-members .member-details .member-name{
+    color: white;
+    margin-top:0;
+    padding-top:0;
+    font-size:30px;
+}
+
+.team-members .member-details .member-position{
+    color:#8BC3A3;
+    font-size:13px;
+}
+
+.team-members .member-details .member-description{
+    color:#fff;
+    font-size:13px;
+}
+
 
 
 

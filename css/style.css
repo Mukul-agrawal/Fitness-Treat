@@ -88,3 +88,17 @@ ol, ul{
 .btn:active{
    outline:none;
 }
+
+/* Font Classes */	
+
+.condensed{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+h2.condensed{
+    font-size: 97px;
+}
+
+.fancy{
+    font-family: 'Pacifico', cursive;
+}
+

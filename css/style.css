@@ -101,4 +101,15 @@ h2.condensed{
 .fancy{
     font-family: 'Pacifico', cursive;
 }
+/* Page Animated item Styles */
+
+.animated{
+    visibility:hidden;
+}
+
+.visible{
+    visibility:visible;
+}
+
+
 

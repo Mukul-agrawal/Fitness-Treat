@@ -110,6 +110,23 @@ h2.condensed{
 .visible{
     visibility:visible;
 }
+/* Background Animation */
+
+@-webkit-keyframes BackgroundAnimation {
+    from {background-position: 0px 0px;}
+    to {background-position: 9600px 0px;}
+}
+
+@-moz-keyframes  BackgroundAnimation {
+    from {background-position: 0px 0px;}
+    to {background-position: 9600px 0px;}
+}
+
+@-ms-keyframes  BackgroundAnimation {
+    from {background-position: 0px 0px;}
+    to {background-position: 9600px 0px;}
+}
+
 
 
 

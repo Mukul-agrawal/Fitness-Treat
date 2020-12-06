@@ -301,6 +301,26 @@ h2.condensed{
 .black-bg{
     background-color:222222 !important;
 }
+/* Home Section */
+
+
+
+#home{
+    position: relative;
+    width: 100%;
+    height: auto;
+    top:0;
+}
+
+.home{
+    background:url(../images/1.jpg) center center fixed;
+    position: relative;
+}
+
+.home:after{
+    clear: both;
+}
+
 
 
 

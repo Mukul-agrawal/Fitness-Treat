@@ -442,6 +442,41 @@ h2.condensed{
 .slides-navigation a:hover{
     opacity:1 !important;
 }
+/* Navigation */
+	
+#navigation{
+    position: fixed;
+    width: 100%;
+    height: 75px;
+    z-index: 1031;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.visible-nav{
+    top:0;
+}
+
+.dark-nav{
+    background:rgba(0,0,0,0.6);
+    box-shadow: 0px 1px 4px rgba(0,0,0, 0.5);
+    -moz-box-shadow: 0px 1px 4px rgba(0,0,0, 0.5);
+    -webkit-box-shadow: 0px 1px 4px rgba(0,0,0, 0.5);
+}
+
+.nav-inner{
+    width:100%;
+    max-width: 1170px;
+    height: 100%;
+    margin:0 auto;
+}
+
+.nav-inner:after{
+    clear: both;
+}
+
+
 
 
 

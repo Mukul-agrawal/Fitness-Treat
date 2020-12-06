@@ -963,6 +963,80 @@ h2.condensed{
 .form-btn:active{
     opacity: 0.9;
 }
+/* Place Holder Colors */
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #727272;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #727272;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #727272;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    #727272;
+}
+
+/* Site Socials and Address */
+
+#site-socials .socials{
+    width:100%;
+    padding: 15px 10px;
+}
+
+#site-socials .socials a.social{
+    font-size:1.5em;
+    color:#fff;
+    margin:15px auto;
+    width:40px;
+    height:40px;
+    display: inline-block;
+    line-height: 40px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    border-radius:50%;
+    background:#8BC3A3;
+}
+
+#site-socials .socials a.social:hover{
+    background:#222;
+    color:white;
+}
+
+/* Address */
+
+#site-socials .address{
+    width: 100%;
+    height: auto;
+    margin:0px auto 25px auto;
+}
+
+/* Back to Top Button */
+
+#site-socials .top-button{
+    margin:30px auto 0;
+    display: inline-block;
+    width:40px;
+    height: 40px;
+    background:blue;
+    color:#2EA590 !important;
+    font-size: 20px;
+    line-height: 38px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    position:fixed;
+    right:10px;
+    bottom:10px;
+    border-radius: 5px;
+}
+
+#site-socials .top-button:hover{
+    color:#8BC3A3;
+}
+
 
 
 

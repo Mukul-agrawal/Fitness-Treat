@@ -593,6 +593,97 @@ h2.condensed{
 	#features{
 		background:#333 url(../images/parallax/3.jpg) repeat;
 	}
+/* Testimonials */
+
+.carousel-indicators {
+    position: absolute;
+    bottom: 0px !important;
+    }	
+
+.testimonials{
+    background: url(../images/parallax/2.jpg) center center fixed;
+    padding: 70px 0 70px;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.t-slides{
+    max-width: 970px;
+    margin:0 auto;
+    max-height: 500px;
+    overflow: hidden;
+    background:none;
+}
+
+.t-slides li.monial{
+    position: absolute;
+    height: auto;
+    
+}
+
+.t-slides li.monial:last-child:after{
+    clear: both;
+}
+
+.monial h1{
+    font-size:2em;
+    line-height:1.5em;
+}
+
+.monial p {
+    margin: 50px auto;
+    font-size: 18px;
+    color: #FFF;
+    text-align: center;
+}
+
+/* Testimonial Controls */	
+
+.testimonials .flex-direction-nav{
+    width:52px;
+    height: 30px;
+    margin:-35px auto 0 auto;
+    position: relative;
+    opacity: 1;
+}
+
+.testimonials .flex-direction-nav li{
+    display: block;
+    position: relative;
+    float:left;
+    width:26px;
+    height: 26px;
+}
+
+.testimonials .flex-direction-nav li a{
+    opacity: 1;
+    width:26px;
+    height: 26px;
+    background:url(../images/testimonial-controls.png);
+}
+
+.testimonials .flex-direction-nav a:before{
+    display: none;
+}
+
+.testimonials .flex-direction-nav li a.flex-prev{
+    background-position: left top;
+    left:-5px;
+}
+
+.testimonials .flex-direction-nav li a.flex-next{
+    background-position: right top;
+    right:-5px;
+}
+
+.testimonials .flex-direction-nav li a.flex-prev:hover{
+    background-position: left bottom;
+}
+
+.testimonials .flex-direction-nav li a.flex-next:hover{
+    background-position: right bottom;
+}
 
 
 

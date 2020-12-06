@@ -5,12 +5,22 @@ html,body{
     position: fixed;
     top: 0;
 }
-#container{
+#containerexe{
     background:rgb(236, 231, 231);
-    height: 3550px;
+    height: 3700px;
     width: 81%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 73px;
+}
+#containerdiet{
+    background:rgb(236, 231, 231);
+    height: 3350px;
+    width: 81%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 73px;
+
 }
 .leftimg{
     float: left; 
@@ -58,4 +68,7 @@ html,body{
 }
 .normal{
     font-weight: 400;
+}
+.diet{
+    padding-top: 30px;
 }

@@ -165,6 +165,19 @@ h2.condensed{
 .no-margin{
     margin:0 !important;
 }
+/* Positions */
+
+.relative{
+    position: relative;
+}
+
+.absolute{
+    position: absolute;
+}
+
+.fixed{
+    position:fixed;
+}
 
 
 

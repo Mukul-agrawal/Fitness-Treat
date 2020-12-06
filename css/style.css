@@ -126,6 +126,46 @@ h2.condensed{
     from {background-position: 0px 0px;}
     to {background-position: 9600px 0px;}
 }
+/* Containers */
+
+.container {
+    width: 100%;
+    height: auto;
+    padding:0;
+    margin:0;
+}
+
+.inner{
+    width:100%;
+    height: auto;
+    max-width: 1170px;
+    position: relative;
+    margin: 0 auto;
+    padding: 75px 0;
+    text-align: center;
+}
+
+.inner:after{
+    clear: both;
+}
+
+.fullwidth{
+    width:100%;
+    max-width: 100%;
+}
+
+.transparent{
+    background: transparent !important;
+}
+
+.no-padding{
+    padding:0 !important;
+}
+
+.no-margin{
+    margin:0 !important;
+}
+
 
 
 

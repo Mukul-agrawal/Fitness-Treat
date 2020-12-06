@@ -475,6 +475,31 @@ h2.condensed{
 .nav-inner:after{
     clear: both;
 }
+/* Logo Style */
+
+.site-logo{
+    font-size:3.5em;
+    float: left;
+    position: relative;
+    padding-top:8px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.dark-nav .site-logo a.logo{
+    color:#8BC3A3;
+    display: block;
+}	
+
+.site-logo a.logo img{
+    height: auto;
+    max-height: 189px;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    transition: all 1s;
+}
 
 
 

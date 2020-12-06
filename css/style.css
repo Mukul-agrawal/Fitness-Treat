@@ -178,6 +178,55 @@ h2.condensed{
 .fixed{
     position:fixed;
 }
+/* Fonts */
+
+.header{
+    width:100%;
+    height: auto;
+    font-size:3.5em;
+    font-weight: 400;
+    text-align: center;
+    margin:0 auto;
+}
+
+.h-desc{
+    font-size:18px;
+    color: white;
+    font-weight: 100;
+    text-align: center;
+    margin:20px auto;
+    max-width: 900px;
+    line-height: 24px;
+}
+
+.extrabold{
+    font-weight: 800;
+}
+
+.bold{
+    font-weight: 700;
+}
+
+.semibold{
+    font-weight: 600;
+}
+
+.normal{
+    font-weight: 400;
+}
+
+.light{
+    font-weight: 100;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
 
 
 

@@ -346,6 +346,103 @@ h2.condensed{
 #home .v2 .typographic .logo{
     padding:25px 0;
 }
+/* Typographic Text Options  */
+
+#home .v2 .typographic h1{
+    text-shadow:2px 2px 2px rgba(0, 0, 0, 0.15);
+    line-height:0.8;
+    font-size:70%;
+    margin:10px 0;
+}
+
+#home .v2 .typographic h2{
+    text-shadow:2px 2px 2px rgba(0, 0, 0, 0.15);
+    line-height: 0.9;
+    font-size:80%;
+    margin:10px 0;
+}
+
+/* Background Slider Images  */
+
+.slides-container div,
+.home{
+    background-size:100%;
+}
+
+#slides .slides-container div{
+    background-position:center center;
+    background-attachment: fixed;
+}
+
+#slides .slides-container .image1{
+    background-image:url(../images/5.jpg);
+}
+
+#slides .slides-container .image2{
+    background-image:url(../images/4.jpg);
+}
+
+#slides .slides-container .image3{
+    background-image:url(../images/3.jpg);
+}
+
+#slides .slides-container .image4{
+    background-image:url(../images/1.jpg);
+}
+
+.v2 .home-arrow{
+    margin:0 auto;
+    left:50%;
+    bottom:12%;
+    position: absolute;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.v2 .home-arrow:hover{
+    color:white;
+}
+
+/* Super Slides Navigation */
+
+.slides-navigation {
+    margin: 0 auto;
+    position: absolute;
+    z-index: 3;
+    top: 45%;
+    width: 100%;
+    z-index: 20;
+}
+.slides-navigation a{
+    position: absolute;
+    display: block;
+    width:36px;
+    height:81px;
+    background:url(../images/slider-arrows.png);
+    opacity:0;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.slides-navigation a.prev {
+    left: 2%;
+    background-position:left;
+}
+.slides-navigation a.next {
+    right: 2%;
+    background-position:right;
+}
+
+#home:hover .slides-navigation a{
+    opacity:0.3;
+}
+
+.slides-navigation a:hover{
+    opacity:1 !important;
+}
+
 
 
 
